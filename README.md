@@ -24,6 +24,10 @@ CheckinBot is a Python script that automates sending a check-in message on a Dis
 
 ### 1. Clone or Download the Project
 
+```bash
+git clone https://github.com/eirikkar/checkinbot.git
+
+```
 
 ### 2. Create a Virtual Environment
 
