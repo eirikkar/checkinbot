@@ -43,7 +43,7 @@ if "login" in driver.current_url:
 else:
     print("User already logged in, proceeding silently.")
 
-driver.get("https://discord.com/channels/1273538729952149536/1273540214052356158")
+driver.get("https://discord.com/channels/1338508601043456093/1339586444045586573")
 message_input = WebDriverWait(driver, 20).until(
     EC.presence_of_element_located((By.CSS_SELECTOR, "div[role='textbox'][contenteditable='true']"))
 )
